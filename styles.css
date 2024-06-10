@@ -1,0 +1,35 @@
+.flex-container {
+    display: flex;
+    flex-flow: row wrap;
+    background-color: black;
+    align-content: space-between;
+    margin: 2.5%;
+    padding: 2.5%;
+}
+.flex-container > .firstcolorbox {
+    background-color: blue;
+}
+.flex-container > .secondcolorbox {
+    background-color: white;
+}
+.flex-container > .thirdcolorbox {
+    background-color: yellow;
+}
+.flex-container > .fourthcolorbox {
+    background-color: red;
+}
+.flex-container > .box {
+    margin: 2.5%;
+    padding: 2.5%;
+}
+
+footer {
+    text-align: center;
+    font-size:xx-small;
+}
+
+li {
+    font-family: Tahoma;
+    font-size: 20px;
+    color: violet;
+}
